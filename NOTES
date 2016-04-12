@@ -12,3 +12,8 @@ python packages
 	simpleitk
 	skimage
 	sklearn
+
+	use dialtion then erosion to smooth mask, fills holes
+
+./IMageMath ~/path/to/img MD ~/path/to/img 5
+./IMageMath ~/path/to/img ME ~/path/to/img 5
