@@ -1,0 +1,14 @@
+Fixed image should be BRATS image, moving is ATLAS ANTs will transorm moving to fixed
+
+BRATS images are registered to T1 image and skull stripped
+
+${AP}antsApplyTransforms -d $dim -i $m -r $f -n linear -t ${nm}1Warp.nii.gz -t ${nm}0GenericAffine.mat -o ${nm}_warped.nii.gz
+
+./registration.sh BRATS-2/Image_Data/HG/0001/VSD.Brain.XX.O.MR_T1/VSD.Brain.XX.O.MR_T1.685.mha Atlas/mni_icbm152_t1_tal_nlin_sym_09a.nii forproduction BRATS-2/Image_Data/HG/0001/transform/
+
+python packages
+	numpy
+	matplotlib
+	simpleitk
+	skimage
+	sklearn
