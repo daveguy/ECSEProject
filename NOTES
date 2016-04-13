@@ -7,13 +7,26 @@ ${AP}antsApplyTransforms -d $dim -i $m -r $f -n linear -t ${nm}1Warp.nii.gz -t $
 ./registration.sh BRATS-2/Image_Data/HG/0001/VSD.Brain.XX.O.MR_T1/VSD.Brain.XX.O.MR_T1.685.mha Atlas/mni_icbm152_t1_tal_nlin_sym_09a.nii forproduction BRATS-2/Image_Data/HG/0001/transform/
 
 python packages
-	numpy
-	matplotlib
-	simpleitk
-	skimage
-	sklearn
+import os
+import numpy as np
+import SimpleITK
+import matplotlib.pyplot as plt
+import matplotlib.mlab as mlab
+
+
+Need to reshape with coords reversed (160, 216, 176) -> reshape(a, (176,216,160))
+
+
+thresholding to make mask
+./ThresholdImage 3 ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/VSD.Brain.XX.O.MR_T1/VSD.Brain.XX.O.MR_T1.685.mha ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/mask.nii.gz 1 1.e9
 
 	use dialtion then erosion to smooth mask, fills holes
 
 ./IMageMath ~/path/to/img MD ~/path/to/img 5
 ./IMageMath ~/path/to/img ME ~/path/to/img 5
+
+needed to simplify header
+./ImageMath 3 path/to/img.nii.gz ClosestSimplifiedHeaderMatrix ~/path/to/img.mha
+
+segment
+./Atropos -d 3 -x ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/maskS.nii.gz -c [3,0] -m [0.1,1x1x1] -i kmeans[3] -o ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/seg.nii.gz -a ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/brainS.nii.gz -v
