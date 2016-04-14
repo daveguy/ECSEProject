@@ -7,7 +7,7 @@ AP="/home/dave/programs/ant/antsbin/bin/"
 for f in $FILES
 do
 	mask=$f/T1_mask.nii.gz
-	seg=$$f/T1_seg.nii.gz
+	seg=$f/T1_seg.nii.gz
 	brain=$f/brainS.nii.gz
 	full=$f/VSD.Brain.XX.O.MR_T1/VSD.Brain.XX.O.*
 	for fixed in $full

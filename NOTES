@@ -30,3 +30,5 @@ needed to simplify header
 
 segment
 ./Atropos -d 3 -x ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/maskS.nii.gz -c [3,0] -m [0.1,1x1x1] -i kmeans[3] -o ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/seg.nii.gz -a ~/Desktop/ECSEProject/BRATS-2/Image_Data/HG/0001/brainS.nii.gz -v
+
+for i in np.where(~np.any(a,axis=0))[0]: # ignore columns of all 0 as background
