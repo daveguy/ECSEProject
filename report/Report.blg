@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Report.aux
+The style file: ieee.bst
+Database file #1: egbib.bib
+Warning--I didn't find a database entry for "Authors14"
+Warning--I didn't find a database entry for "Authors14b"
+Warning--I didn't find a database entry for "Alpher02"
+Warning--I didn't find a database entry for "Alpher03"
+Warning--I didn't find a database entry for "Alpher04"
+Warning--can't use both author and editor fields in Menze2010
+You've used 2 entries,
+            2120 wiz_defined-function locations,
+            527 strings with 4491 characters,
+and the built_in function-call counts, 1005 in all, are:
+= -- 94
+> -- 56
+< -- 2
++ -- 23
+- -- 20
+* -- 88
+:= -- 162
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 34
+empty$ -- 68
+format.name$ -- 20
+if$ -- 206
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 3
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 25
+stack$ -- 0
+substring$ -- 68
+swap$ -- 13
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 1
+while$ -- 9
+width$ -- 3
+write$ -- 25
+(There were 6 warnings)

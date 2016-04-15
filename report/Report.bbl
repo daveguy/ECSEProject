@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{Menze2010}
+B.~H. Menze, K.~Leemput, D.~Lashkari, M.-A. Weber, N.~Ayache, and P.~Golland.
+\newblock {\em Medical Image Computing and Computer-Assisted Intervention --
+  MICCAI 2010: 13th International Conference, Beijing, China, September 20-24,
+  2010, Proceedings, Part II}, chapter A Generative Model for Brain Tumor
+  Segmentation in Multi-Modal Images, pages 151--159.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2010.
+
+\bibitem{Prastawa}
+M.~Prastawa, E.~Bullitt, S.~Ho, and G.~Gerig.
+\newblock A brain tumor segmentation framework based on outlier detection.
+\newblock {\em Medical Image Analysis}, 8(3):275--283, 9 2004.
+
+\end{thebibliography}
