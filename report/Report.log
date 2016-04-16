@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.15)  15 APR 2016 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.15)  16 APR 2016 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,112 +367,131 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 
-<images/model.jpg, id=9, 251.4996pt x 291.489pt>
-File: images/model.jpg Graphic file (type jpg)
- <use images/model.jpg>
-Package pdftex.def Info: images/model.jpg used on input line 68.
-(pdftex.def)             Requested size: 118.56796pt x 137.42238pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 
-LaTeX Warning: Citation `Authors14' on page 2 undefined on input line 174.
+<images/model.jpg, id=30, 251.4996pt x 291.489pt>
+File: images/model.jpg Graphic file (type jpg)
+ <use images/model.jpg>
+Package pdftex.def Info: images/model.jpg used on input line 70.
+(pdftex.def)             Requested size: 118.56796pt x 137.42238pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+
+Overfull \hbox (8.33583pt too wide) detected at line 82
+[]\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 ([][]) \U/msa/m/n/10 , \OML/cmm/m/it/10 p
+\OT1/cmr/m/n/10 ([][]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 k[]; [][]\OT1/cmr/m/n/1
+0 ; []\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 / [] \OML/cmm/m/i
+t/10 p\OT1/cmr/m/n/10 ([][]\OMS/cmsy/m/n/10 j[][]\OML/cmm/m/it/10 ; k[]\OT1/cmr
+/m/n/10 ; []) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ([][]; \OM
+L/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 p\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 k[]\OT1/cmr/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 82--86
+\OT1/ptm/m/n/10 The au-thors de-fine a sim-i-lar func-tion $\OML/cmm/m/it/10 w[
+]\OT1/cmr/m/n/10 ([][])$ \OT1/ptm/m/n/10 for
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 82--86
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k[]\OMS/cmsy/m/n/10 j[][]\O
+ML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 ; []\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )
+$\OT1/ptm/m/n/10 , for the pos-te-rior prob-a-bil-ity of $\OML/cmm/m/it/10 k[]$
+\OT1/ptm/m/n/10 .
+ []
 
 [2 <./images/model.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 
-LaTeX Warning: Citation `Authors14b' on page 3 undefined on input line 186.
-
-
-LaTeX Warning: Citation `Alpher02' on page 3 undefined on input line 258.
+ []
 
 
-LaTeX Warning: Citation `Alpher03' on page 3 undefined on input line 259.
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
+
+ []
 
 
-LaTeX Warning: Citation `Alpher04' on page 3 undefined on input line 259.
+Underfull \hbox (badness 2012) in paragraph at lines 117--121
+\OT1/ptm/m/n/10 Similar up-date are re-quired for $\OML/cmm/m/it/10 v[]$\OT1/pt
+m/m/n/10 , $\OML/cmm/m/it/10 ^^V[]$ \OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 v[]$\
+OT1/ptm/m/n/10 ,
+ []
+
+(./Report.bbl
+Underfull \hbox (badness 2181) in paragraph at lines 23--27
+[]\OT1/ptm/m/n/9 M. Kistler, S. Bonaretti, M. Pfahrer, R. Niklaus, and
+ []
 
 
-LaTeX Warning: Citation `Alpher03' on page 3 undefined on input line 261.
+Underfull \hbox (badness 1286) in paragraph at lines 29--34
+\OT1/ptm/m/n/9 of the brain.  \OT1/ptm/m/it/9 IEEE Trans-ac-tions on Med-i-cal 
+Imag-ing\OT1/ptm/m/n/9 ,
+ []
 
 
-LaTeX Warning: Citation `Alpher03' on page 3 undefined on input line 262.
+Underfull \hbox (badness 1946) in paragraph at lines 36--49
+\OT1/ptm/m/n/9 M. Do-jat, S. Doyle, J. Festa, F. Forbes, E. Geremia,
+ []
 
 
-LaTeX Warning: Citation `Alpher03' on page 3 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Alpher02' on page 3 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Authors14' on page 3 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Alpher02' on page 3 undefined on input line 268.
-
-
-LaTeX Warning: Citation `Alpher03' on page 3 undefined on input line 268.
-
-
-LaTeX Warning: Citation `Authors14' on page 3 undefined on input line 268.
-
-[3]
-
-LaTeX Warning: Citation `Authors14' on page 4 undefined on input line 378.
-
-[4] (./Report.bbl
-Underfull \hbox (badness 1226) in paragraph at lines 4--10
+Underfull \hbox (badness 1226) in paragraph at lines 51--57
 []\OT1/ptm/m/n/9 B. H. Menze, K. Leem-put, D. Lashkari, M.-A. We-ber,
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 438.
- [5
+) [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+ [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 438.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 438.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 6364 strings out of 493085
- 91112 string characters out of 6136917
- 181698 words of memory out of 5000000
- 9699 multiletter control sequences out of 15000+600000
- 41535 words of font info for 97 fonts, out of 8000000 for 9000
+ 6345 strings out of 493085
+ 90903 string characters out of 6136917
+ 183489 words of memory out of 5000000
+ 9690 multiletter control sequences out of 15000+600000
+ 36612 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,9n,26p,1113b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,9n,26p,1611b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on Report.pdf (5 pages, 219225 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+mib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on Report.pdf (4 pages, 221473 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

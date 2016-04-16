@@ -1,5 +1,52 @@
 \begin{thebibliography}{1}\itemsep=-1pt
 
+\bibitem{atropos}
+B.~B. Avants, N.~J. Tustison, J.~Wu, P.~A. Cook, and J.~C. Gee.
+\newblock An open source multivariate framework for n-tissue segmentation with
+  evaluation on public data.
+\newblock {\em Neuroinformatics}, 9(4):381--400, 2011.
+
+\bibitem{mni2}
+V.~Fonov, A.~Evans, R.~McKinstry, C.~Almli, and D.~Collins.
+\newblock Unbiased nonlinear average age-appropriate brain templates from birth
+  to adulthood.
+\newblock {\em NeuroImage}, 47, Supplement 1:S102 --, 2009.
+\newblock Organization for Human Brain Mapping 2009 Annual Meeting.
+
+\bibitem{mni1}
+V.~Fonov, A.~C. Evans, K.~Botteron, C.~R. Almli, R.~C. McKinstry, and D.~L.
+  Collins.
+\newblock Unbiased average age-appropriate atlases for pediatric studies.
+\newblock {\em NeuroImage}, 54(1):313 -- 327, 2011.
+
+\bibitem{virtual_skeleton}
+M.~Kistler, S.~Bonaretti, M.~Pfahrer, R.~Niklaus, and P.~B{\"u}chler.
+\newblock The virtual skeleton database: An open access repository for
+  biomedical research and collaboration.
+\newblock {\em J Med Internet Res}, 15(11):e245, Nov 2013.
+
+\bibitem{leemput}
+K.~V. Leemput, F.~Maes, D.~Vandermeulen, and P.~Suetens.
+\newblock Automated model-based tissue classification of mr images of the
+  brain.
+\newblock {\em IEEE Transactions on Medical Imaging}, 18(10):897--908, Oct
+  1999.
+
+\bibitem{brats}
+B.~Menze, A.~Jakab, S.~Bauer, J.~Kalpathy-Cramer, K.~Farahani, J.~Kirby,
+  Y.~Burren, N.~Porz, J.~Slotboom, R.~Wiest, L.~Lanczi, E.~Gerstner, M.-A.
+  Weber, T.~Arbel, B.~Avants, N.~Ayache, P.~Buendia, L.~Collins, N.~Cordier,
+  J.~Corso, A.~Criminisi, T.~Das, H.~Delingette, C.~Demiralp, C.~Durst,
+  M.~Dojat, S.~Doyle, J.~Festa, F.~Forbes, E.~Geremia, B.~Glocker, P.~Golland,
+  X.~Guo, A.~Hamamci, K.~Iftekharuddin, R.~Jena, N.~John, E.~Konukoglu,
+  D.~Lashkari, J.~Antonio~Mariz, R.~Meier, S.~Pereira, D.~Precup, S.~J. Price,
+  T.~Riklin-Raviv, S.~Reza, M.~Ryan, L.~Schwartz, H.-C. Shin, J.~Shotton,
+  C.~Silva, N.~Sousa, N.~Subbanna, G.~Szekely, T.~Taylor, O.~Thomas,
+  N.~Tustison, G.~Unal, F.~Vasseur, M.~Wintermark, D.~Hye~Ye, L.~Zhao, B.~Zhao,
+  D.~Zikic, M.~Prastawa, M.~Reyes, and K.~Van~Leemput.
+\newblock {The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)}.
+\newblock {\em {IEEE Transactions on Medical Imaging}}, page~33, 2014.
+
 \bibitem{Menze2010}
 B.~H. Menze, K.~Leemput, D.~Lashkari, M.-A. Weber, N.~Ayache, and P.~Golland.
 \newblock {\em Medical Image Computing and Computer-Assisted Intervention --
