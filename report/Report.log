@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.15)  16 APR 2016 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.15)  16 APR 2016 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,20 +415,36 @@ $\OT1/ptm/m/n/10 , for the pos-te-rior prob-a-bil-ity of $\OML/cmm/m/it/10 k[]$
  []
 
 [2 <./images/model.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--115
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 117--121
-\OT1/ptm/m/n/10 Similar up-date are re-quired for $\OML/cmm/m/it/10 v[]$\OT1/pt
-m/m/n/10 , $\OML/cmm/m/it/10 ^^V[]$ \OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 v[]$\
-OT1/ptm/m/n/10 ,
+Underfull \hbox (badness 1769) in paragraph at lines 112--116
+\OT1/ptm/m/n/10 Similar up-dates are re-quired for $\OML/cmm/m/it/10 v[]$\OT1/p
+tm/m/n/10 , $\OML/cmm/m/it/10 ^^V[]$ \OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 v[]$
+
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 120--123
+[]\OT1/ptm/m/n/10 My code is avail-able for re-view on my github
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+\OT1/ptm/m/n/10 repos-i-tory at []$\OT1/pcr/m/n/10 https : / / github . com / d
+aveguy /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+
  []
 
 (./Report.bbl
@@ -447,30 +463,30 @@ Underfull \hbox (badness 1946) in paragraph at lines 36--49
 \OT1/ptm/m/n/9 M. Do-jat, S. Doyle, J. Festa, F. Forbes, E. Geremia,
  []
 
-
+[3]
 Underfull \hbox (badness 1226) in paragraph at lines 51--57
 []\OT1/ptm/m/n/9 B. H. Menze, K. Leem-put, D. Lashkari, M.-A. We-ber,
  []
 
-) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
  [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 129.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 6345 strings out of 493085
- 90903 string characters out of 6136917
- 183489 words of memory out of 5000000
- 9690 multiletter control sequences out of 15000+600000
- 36612 words of font info for 87 fonts, out of 8000000 for 9000
+ 6347 strings out of 493085
+ 90923 string characters out of 6136917
+ 184489 words of memory out of 5000000
+ 9691 multiletter control sequences out of 15000+600000
+ 37127 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,9n,26p,1611b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,9n,26p,1786b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
@@ -488,10 +504,10 @@ exlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on Report.pdf (4 pages, 221473 bytes).
+Output written on Report.pdf (4 pages, 225037 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 152 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

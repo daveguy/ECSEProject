@@ -99,11 +99,6 @@ Initial $\mu_k^c$ and $v_k^c$ were set based on the segmentation of the healthy 
 
 My code was written in python2.7, using jupyter. SimpleITK was used to lead and handle images.
 
-
-\section{Discussion}
-
-
-
 \subsection{results}
 Unfortunately, at the time of this writing, I was unable to produce results. I had difficulty with ANTs installation which delayed the project. Mostly, however, it is due to the very large run times for my code. Working with full images, updating $\boldsymbol{\alpha}$ 
 \begin{equation}
@@ -111,13 +106,21 @@ Unfortunately, at the time of this writing, I was unable to produce results. I h
 \end{equation}
 Unnumbered equation, below equation 5 in \cite{Menze2010}
 \\\\
-takes approximately one hour, with the operation vectorized and only those $\alpha_i$ that are not part of the background updated. Updating $\boldsymbol{\theta}$ takes significantly longer.
+takes approximately one hour, with the operation vectorized and only those $\alpha_i$ that are not part of the background updated. Updating $\boldsymbol{\theta}$ takes significantly longer,for example the update for $\mu_k^c$ is:
 \begin{equation}
 \mu_k^c \leftarrow \frac{\sum_i\sum_{\boldsymbol{t}_i}q_i(\boldsymbol{t}_i)w_{ik}(\boldsymbol{t}_i)(1-t_i^c)y_i^c}{\sum_i\sum_{\boldsymbol{t}_i}q_i(\boldsymbol{t}_i)w_{ik}(\boldsymbol{t}_i)(1-t_i^c)}
 \end{equation}
 Unnumbered equation, under equation 5 in \cite{Menze2010}
 \\\\
-Similar update are required for $v_k^c$, $\mu_{k+1}^c$ and $v_{k+1}^c$, with $C=4$ and $K=3$ the second step of the EM algorithm requires 16 updates. For the full images I halted it after the program had run for approximately 6 hours and only the first $\mu_1^1$ had been updated. I then shrank the images, with SimpleITK, to $\tfrac{1}{3}$ the size in every dimension. which reduced the total number of voxels from 6 082 560 to 221 328. At this point I was more going for proof of functionality, rather than good results, as such a large decrease in resolution would make any segmentation fairly inaccurate. While running faster the algorithm still took approximately 14 hours to perform one iteration of EM, in \cite{Menze2010} they state it took 10-15 iterations on average to converge, meaning running until convergence would be unfeasible. Much to my dismay this means I can only claim that my code does not crash. I have since changed the code to operate in 2D, on a single slice from each modality. From manual  inspection of the ground truth I selected a depth in the horizontal plane that contains a large amount of tumor tissue. I then sliced each modality, and the initial segmentation at this same level. The algorithm is currently running, much faster, although i still project time to completion for 10 iterations to be approximately 20 hours. I could again reduce the size of the images, and take a slice, however, considering this project is already overdue I am forced to submit what I have.
+Similar updates are required for $v_k^c$, $\mu_{k+1}^c$ and $v_{k+1}^c$ for each channel and class, as well as the tumor class for every channel. With $C=4$ and $K=3$ the second step of the EM algorithm requires 16 updates. For the full images I halted the program after it had run for approximately 6 hours and only the first $\mu_1^1$ had been updated. I then shrank the images, with SimpleITK, to $\tfrac{1}{3}$ the size in every dimension. which reduced the total number of voxels from 6 082 560 to 221 328. At this point I was more going for proof of functionality, rather than good results, as such a large decrease in resolution would make any segmentation fairly inaccurate. While running faster the algorithm still took approximately 14 hours to perform one iteration of EM, in \cite{Menze2010} they state it took 10-15 iterations on average to converge, meaning running until convergence would be infeasible, at least considering the due date. Much to my dismay this means I can only claim that my code does not crash. Although I did test many methods individually and am reasonably confident that, given time to run, my code would produce segmentation's. I have since changed the code to operate in 2D, on a single slice from each modality. From manual  inspection of the ground truth I selected a depth in the horizontal plane that contains a large amount of tumor tissue. I then sliced each modality, and the initial segmentation at this same level. The algorithm is currently running, much faster, although i still project time to completion for 10 iterations to be approximately 20 hours. I could again reduce the size of the images, and take a slice, however, considering this project is already overdue I am forced to submit what I have.
+
+\section{Discussion}
+The advantages of the authors model are clear, no training set is needed, only the spatial prior, and the model would generalize to any set of MRI images. The authors do not make any mention of run times, and I have no basis for comparison, but it seems to be a very slow algorithm. Granted my computer is dated, and given it never finished, although my program did not crash, the long run time could be due to how I coded the algorithm. It could also be fairly normal, given it segments 4 images simultaneously. However the need to repeatedly sum over the entire image on each iteration, and each sum involving several other nested sums implies a long run time. I am still quite disappointed I was unable to finish any of the segmentation's,and, in hindsight I should have run the program on 2D slices, while there was still time. 
+
+My code is available for review on my github repository at \url{https://github.com/daveguy/ECSEProject.git}
+\\\\
+Special thanks to Andrew Jenson for his help.
+
 
 
 {\small
